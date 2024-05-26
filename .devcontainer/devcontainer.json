@@ -1,0 +1,17 @@
+{
+	"name": "DT vs DM",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10-bookworm",
+	"postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-renderers",
+				"ms-python.python",
+				"davidanson.vscode-markdownlint",
+				"github.copilot",
+				"percy.vscode-pydata-viewer"
+			]
+		}
+	}
+}
